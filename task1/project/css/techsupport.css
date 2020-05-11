@@ -1,0 +1,40 @@
+  
+  #techsupport
+  {
+    margin-top: 130px;
+
+  }
+  .computersupport ,.computersupport2 ,.computersupport3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px;
+    padding: 20px; */
+}
+ 
+h1{
+    font-size: 3.5em;
+}
+.computersupport p ,.computersupport3 p,.computersupport2 p{
+    font-size: 2em;
+}
+.computersupport img ,.computersupport3 img,.computersupport2 img{
+    margin-left: 270px;
+  
+
+}
+ 
+.text3 ,.text2,.text{
+ margin-bottom: 100px;
+ margin-right: 52px;
+}
+.computersupport button ,.computersupport3 button,.computersupport2 button{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;   
+    margin: 0; 
+
+}
+footer{
+    margin-top: 0px;
+ }

@@ -1,0 +1,19 @@
+#cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#cont .monthly h2 ,#cont .annual h2 ,#cont .lifetime h2 {
+ font-size: 2em;    
+}
+#cont .monthly button ,#cont .annual button ,#cont .lifetime button {
+     margin: 0;
+     width: 100%;   
+     font-size: 20px;
+     font-weight: bold;
+   }
+   #cont .monthly ul ,#cont .annual ul ,#cont .lifetime ul{
+    margin-left: 35px;
+
+  }

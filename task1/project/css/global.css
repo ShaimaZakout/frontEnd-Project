@@ -1,0 +1,196 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color:#172035;
+     display: flex;  
+     justify-content: space-between;
+     align-items: center;  
+     box-shadow: #fff ;
+     position: fixed;
+      top: 0;
+     box-shadow: 0px 0px 10px rgba(235, 230, 230, 0.15);
+     z-index: 99;
+ }
+img#logo{
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 20px;
+    left: 0;
+ }
+ nav{
+      margin-right: 115px;
+     display: inline-block;
+     padding: 5px;
+   
+ }
+ nav a{
+     margin-right: 20px;
+     color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+
+ }
+ a:hover{
+    background-color: #09568d;
+     padding: 25px;
+  }
+  /* section Home */
+  img#slide{
+      width: 100%;
+      height: auto;
+  }
+  section#content{
+      color: #FFF;
+      left: 500px;
+      top: 200px;
+      position: absolute;
+      padding: 20px;
+      
+  }
+  section#content h1{
+    font-size:  4em;
+   }
+  section#content p{
+   font-size:  1em;
+   margin-top: 0;
+  }
+  section#content h3{
+    font-size:  2em;
+   }
+ button{
+    background-color: #172035;
+    width: 50%;
+    height: 50px;
+    border: none;
+    color: #FFF;
+    padding: 10px;
+     border-radius: 15px;
+     margin-left: 72px;
+
+   }
+   button:hover{
+       background-color:#09568d ;
+       cursor: pointer;
+   }
+   /* courses */
+   section#courses,#learntech{
+       margin: 30px;
+       padding: 25px;
+   }
+   section#content_Courses img
+   {
+      width: 100%;
+   }
+   section#content_Courses{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  
+   }
+   section#courses h2,#learntech h2{
+       margin: 20px;
+       font-size: 3em;
+    }
+section#content_Courses .course2,.course,.course3
+,.learntechnow ,.learntechpodcast , .learntechblog{
+    width: 700px;
+    height: 400px;
+    margin: 27px;
+    padding: 10px;
+ }
+ section#content_Courses p{
+     font-size: 1em;
+     margin: 5px;
+     margin-bottom: 36px;
+
+  }
+  section#content_Courses h4{
+      font-size: 20px;
+  }
+  section#content_Courses button{
+      margin: auto;
+      text-align: center;
+      
+  }
+/* about section */
+section#about
+{
+    background-color: #252525;
+    color: #FFF;  
+    width:97%;
+    height: 472px;
+    padding: 30px;
+    margin-top: 87px;
+
+}
+section#about h2{
+    text-align: center;
+    font-size: 3em;
+ }
+section#about-Content{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 60px;
+  }
+ section#about-Content div{
+     background-color: black;
+     width:250px;
+     height: 200px;
+     text-align: center;
+    
+  }
+  .content
+  {
+      
+    margin-right: 32px;
+
+  }
+  section#about-Content h4{
+ font-size: 25px;
+ font-weight: bold;
+  }
+  section#about-Content p{
+      font-size: 50px;
+      font-weight: bold;
+  }
+  /* footer */
+  footer{
+    bottom: 0;
+      width: 100%;
+    height: 100px;
+    background-color:#172035;
+     display: flex;  
+     justify-content: space-between;
+     align-items: center; 
+     color: #FFF;
+     margin-top: 20px;
+  }
+ #footer{
+    margin-right: 200px;
+  }
+  #footer:hover{
+      color: cornflowerblue;
+      font-size: 15px;
+    }
+    /*  */
+    .but-Accord {
+        margin-left: 500px;
+        margin-top: 97px;
+    }
+    .but-Accord .but{
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+       background-color: #FFF;
+       margin-left: 25px;
+      }
+     
+  
